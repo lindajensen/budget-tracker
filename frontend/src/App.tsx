@@ -6,13 +6,14 @@ import {
 } from "react-router-dom";
 
 import "./App.css";
+import MainLayout from "./layouts/MainLayout";
 
 // Router
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route>
-        <Route path="/" element={<div>Home</div>} />
+      <Route path="/" element={<MainLayout />}>
+        <Route index element={<div>Home</div>} />
         <Route path="/login" element={<div>Login</div>} />
         <Route path="/register" element={<div>Register</div>} />
         <Route path="/dashboard" element={<div>Dashboard</div>} />
