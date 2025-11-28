@@ -4,8 +4,8 @@
 
   --gradient-primary: linear-gradient(135deg, #00416b 0%, #f1ead6 100%);
 
-  --color-background: #f1ead6;
-  --color-surface: #ffffff;
+  /* --color-background: #f1ead6; */
+  --color-background: #ffffff;
   --color-text-primary: #1f2937;
   --color-text-secondary: #6b7280;
   --color-border: #d4c9b3;
@@ -47,7 +47,7 @@ html {
 }
 
 body {
-  background-color: var(--color-background);
+  background-color: var(--color-surface);
 }
 
 html,
